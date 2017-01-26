@@ -4,61 +4,67 @@
   <meta charset="utf-8">
   <title>Grid Layout</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700" rel="stylesheet">
 </head>
-<body>
+  <body>
 
-    <div>
-      <img src="images/maerten_van_heemskerck_-_panorama_with_the_abduction_of_helen_amidst_the_wonders_of_the_ancient_world_-_walters_37656.jpg" alt="top">
-      <h1>The Seven Wonders of the Ancient World</h1>
-      <p>Remarkable constructions of classical antiquity almost completely lost in time.
-      Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
-    </div>
+    <div class="grid">
 
-    <div>
-      <figure>
-        <img src="images/temple_of_artemis.jpg" alt="artemis">
-        <figcaption>Temple of Artemis</figcaption>
-      </figure>
-      <dl>
-        <dt>Date of construction:</dt>
-        <dd>Circa 550 BC</dd>
-        <dt>Builders:</dt>
-        <dd>Greeks</dd>
-        <dt>Location:</dt>
-        <dd>Selçuk, Turkey</dd>
-      </dl>
-    </div>
+      <div>
+        <img class="img-flex" src="images/maerten-van-heemskerck-panorama-with-the-abduction-of-helen-amidst-the-wonders-of-the-ancient-world-walters-37656.jpg" alt="top">
+        <h1>The Seven Wonders of the Ancient World</h1>
+        <p>Remarkable constructions of classical antiquity almost completely lost in time.
+        Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
+      </div>
 
-    <div>
-      <figure>
-        <img src="images/colossus_of_rhodes.jpg" alt="colossus">
-        <figcaption>Colossus of Rhodes</figcaption>
-      </figure>
+      <div>
+        <figure>
+          <img class="img-flex" src="images/temple-of-artemis.jpg" alt="artemis">
+          <figcaption><h2>Temple of Artemis<h2></figcaption>
+        </figure>
         <dl>
           <dt>Date of construction:</dt>
-          <dd>292–280 BC</dd>
+          <dd>Circa 550 BC</dd>
           <dt>Builders:</dt>
           <dd>Greeks</dd>
           <dt>Location:</dt>
-          <dd>Rhodes, Greece</dd>
+          <dd>Selçuk, Turkey</dd>
         </dl>
+      </div>
+
+      <div>
+        <figure>
+          <img class="img-flex" src="images/colossus-of-rhodes.jpg" alt="colossus">
+          <figcaption><h2>Colossus of Rhodes</h2></figcaption>
+        </figure>
+          <dl>
+            <dt>Date of construction:</dt>
+            <dd>292–280 BC</dd>
+            <dt>Builders:</dt>
+            <dd>Greeks</dd>
+            <dt>Location:</dt>
+            <dd>Rhodes, Greece</dd>
+          </dl>
+      </div>
+
+      <div>
+        <figure>
+          <img class="img-flex" src="images/hanging-gardens-of-babylon.jpg" alt="gardens">
+          <figcaption><h2>Hanging Gardens of Babylon</h2></figcaption>
+        </figure>
+          <dl>
+            <dt>Date of construction:</dt>
+            <dd>Circa 600 BC</dd>
+            <dt>Builders:</dt>
+            <dd>Babylonians</dd>
+            <dt>Location:</dt>
+            <dd>Nineveh, Iraq</dd>
+          </dl>
+      </div>
+      
     </div>
 
-    <div>
-      <figure>
-        <img src="images/hanging_gardens_of_babylon.jpg" alt="gardens">
-        <figcaption>Hanging Gardens of Babylon</figcaption>
-      </figure>
-        <dl>
-          <dt>Date of construction:</dt>
-          <dd>Circa 600 BC</dd>
-          <dt>Builders:</dt>
-          <dd>Babylonians</dd>
-          <dt>Location:</dt>
-          <dd>Nineveh, Iraq</dd>
-        </dl>
-    </div>
-
-</body>
+  </body>
 </html>
