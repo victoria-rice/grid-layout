@@ -1,0 +1,61 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.grid {
+  overflow: hidden;
+}
+
+.unit {
+  float: left;
+}
+
+.xs-1 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .s-1 {
+    width: 100%;
+  }
+
+  .s-1-2 {
+    width: 50%;
+  }
+
+dl {
+  padding: 0;
+}
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .m-1 {
+    width: 100%;
+  }
+
+  .m-1-2 {
+    width: 33%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .l-2-3 {
+    width: 66%;
+  }
+
+}
